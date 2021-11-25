@@ -14,7 +14,6 @@ class _splashScreenState extends State<splashScreen> {
   Widget build(BuildContext context) {
     return SplashScreenView(
       duration: 300,
-      //imageSrc: "assets/todo.png",
       imageSize: 200,
       text: "Todo App \n\n\n By Niloy.....",
       
