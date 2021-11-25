@@ -1,4 +1,4 @@
-import 'package:crud_sqlite_app/screens/home_screen.dart';
+import 'package:crud_sqlite_app/screens/Splashscreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
 
-      home: HomeScreen(),
+      home: splashScreen(),
     );
   }
 }
